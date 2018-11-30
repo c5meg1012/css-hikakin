@@ -1,0 +1,19 @@
+{
+  "name": "css-hikakin",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "compile-sass": "node-sass --importer node_modules/node-sass-glob-importer/dist/cli.js -o ./dist/styles scss/styles.scss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/c5meg1012/css-hikakin"
+  },
+  "author": "meru",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.10.0",
+    "node-sass-glob-importer": "^5.2.0",
+    "normalize.css": "^8.0.1"
+  }
+}
