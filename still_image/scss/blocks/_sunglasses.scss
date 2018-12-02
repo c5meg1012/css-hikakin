@@ -1,0 +1,47 @@
+.sunglasses {
+  &__left,
+  &__right {
+    width: 62px;
+    height: 38px;
+    position: absolute;
+    border-radius: 22%;
+    background-color: $black;
+  }
+
+  &__left {
+    transform: rotate(-0.015turn);
+    left: 35px;
+    top: 122px;
+  }
+
+  &__right {
+    right: 39px;
+    top: 120px;
+  }
+
+  &__center {
+    width: 30px;
+    height: 10px;
+    position: absolute;
+    background-color: $black;
+    top: 120px;
+    left: 86px;
+  }
+
+  &__reflect {
+    width: 25px;
+    height: 34px;
+    position: absolute;
+    top: 2px;
+    background-color: $glasses-light;
+    transform: skewX(-30deg);
+  }
+
+  &__reflect-left {
+    left: 16px;
+  }
+
+  &__reflect-right {
+    right: 19px;
+  }
+}
