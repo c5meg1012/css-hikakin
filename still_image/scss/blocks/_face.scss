@@ -1,0 +1,10 @@
+.face {
+  &__right {
+    width: 120px;
+    height: 120px;
+    background-color: $skin;
+    border-bottom: 1px solid $black;
+    border-right: 1px solid $black;
+    border-radius: 30%;
+  }
+}

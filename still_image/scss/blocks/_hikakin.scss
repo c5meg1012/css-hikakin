@@ -1,0 +1,19 @@
+.hikakin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+
+  &__head {
+    width: 207px;
+    height: 224px;
+    position: relative;
+  }
+
+  &__body {
+    width: 190px;
+    height: 218px;
+    position: relative;
+  }
+}
