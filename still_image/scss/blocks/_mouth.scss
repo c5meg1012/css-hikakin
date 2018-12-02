@@ -1,0 +1,127 @@
+.mouth {
+  &__top {
+    width: 92px;
+    height: 30px;
+    position: absolute;
+    bottom: 50px;
+    right: 55px;
+    background-color: $skin;
+    border-bottom: 1px solid $black;
+    border-radius: 33%;
+  }
+
+  &__center {
+    width: 88px;
+    height: 30px;
+    position: absolute;
+    bottom: 40px;
+    right: 57px;
+    background-color: $white;
+    border-bottom: 1px solid $black;
+    border-radius: 50%;
+  }
+
+  &__bottom-left {
+    transform: rotate(0.08turn);
+    left: 58px;
+    top: 161px;
+  }
+
+  &__bottom-right {
+    transform: rotate(-0.08turn);
+    right: 53px;
+    top: 161px;
+  }
+
+  &__bottom {
+    width: 63px;
+    height: 30px;
+    position: absolute;
+    bottom: 27px;
+    background-color: $white;
+    border-bottom: 1px solid $black;
+    border-radius: 44%;
+  }
+
+  &__tooth {
+    width: 1px;
+    background-color: $black;
+    position: absolute;
+  }
+
+  &__tooth--01 {
+    height: 23px;
+    bottom: 27px;
+    right: 100px;
+  }
+
+  &__tooth--02 {
+    height: 20px;
+    bottom: 30px;
+    right: 116px;
+  }
+
+  &__tooth--03 {
+    height: 20px;
+    bottom: 30px;
+    right: 84px;
+  }
+
+  &__tooth--04 {
+    height: 16px;
+    bottom: 36px;
+    right: 128px;
+  }
+
+  &__tooth--05 {
+    height: 15px;
+    bottom: 37px;
+    right: 72px;
+  }
+
+  &__tooth--06 {
+    height: 11px;
+    bottom: 42px;
+    right: 137px;
+  }
+
+  &__tooth--07 {
+    height: 10px;
+    bottom: 43px;
+    right: 63px;
+  }
+
+  &__dimple-box {
+    width: 9px;
+    height: 8px;
+    top: 163px;
+    overflow: hidden;
+    position: absolute;
+  }
+  
+  &__dimple-box-left {
+    left: 56px;
+    transform: rotate(0.73turn);
+  }
+
+  &__dimple-box-right {
+    right: 51px;
+    transform: rotate(0.03turn);
+  }
+
+  &__dimple {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    border-top: 1px solid $black;
+    border-right: 1px solid $black;
+    right: 0;
+    border-radius: 10%;
+  }
+
+  &__dimple-left {
+  }
+
+  &__dimple-right {
+  }
+}
