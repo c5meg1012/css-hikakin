@@ -1,0 +1,22 @@
+.ears {
+  &__left,
+  &__right {
+    width: 17px;
+    height: 20px;
+    position: absolute;
+    background-color: $skin;
+    border: 1px solid $black;
+    border-radius: 50%;
+    top: 132px;
+  }
+
+  &__left {
+    transform: rotate(0.39turn);
+    left: 12px;
+  }
+
+  &__right {
+    transform: rotate(-0.39turn);
+    right: 12px;
+  }
+}
