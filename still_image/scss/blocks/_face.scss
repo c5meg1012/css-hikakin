@@ -39,7 +39,9 @@
   }
 
   &__center,
-  &__top {
+  &__top,
+  &__top-left,
+  &__top-right {
     background-color: $skin;
     position: absolute;
   }
@@ -52,10 +54,21 @@
     transform: rotate(0.375turn);
   }
 
-  &__top {
-    width: 159px;
-    height: 85px;
-    top: 66px;
-    right: 24px;
+  &__top-left {
+    width: 130px;
+    height: 100px;
+    top: 63px;
+    right: 16px;
+    border-radius: 50%;
+    transform: rotate(-0.35turn);
+  }
+
+  &__top-right {
+    width: 73px;
+    height: 80px;
+    top: 99px;
+    left: 32px;
+    border-radius: 50%;
+    transform: rotate(-0.3turn);
   }
 }

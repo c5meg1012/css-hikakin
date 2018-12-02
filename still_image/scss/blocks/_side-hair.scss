@@ -1,0 +1,23 @@
+.side-hair {
+  &__tip {
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-style: solid;
+    border-color: transparent transparent $hair transparent;
+  }
+
+  &__tip-left {
+    top: 99px;
+    left: 17px;
+    transform: rotate(-0.525turn);
+    border-width: 0 8.5px 50px 8.5px;
+  }
+
+  &__tip-right {
+    top: 95px;
+    right: 19px;
+    border-width: 0 8.5px 60px 8.5px;
+    transform: rotate(0.525turn);
+  }
+}

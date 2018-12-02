@@ -1,0 +1,42 @@
+.front-hair {
+  &__tip {
+    background-color: $hair;
+    position: absolute;
+  }
+
+  &__tip--01 {
+    width: 70px;
+    height: 8px;
+    border-radius: 50%;
+    top: 67px;
+    right: 34px;
+    transform: rotate(-0.6turn);
+  }
+
+  &__tip--02 {
+    width: 70px;
+    height: 8px;
+    border-radius: 50%;
+    top: 80px;
+    right: 61px;
+    transform: rotate(-0.6turn);
+  }
+
+  &__tip--03 {
+    width: 70px;
+    height: 8px;
+    border-radius: 50%;
+    top: 93px;
+    right: 88px;
+    transform: rotate(-0.565turn);
+  }
+
+  &__tip--04 {
+    width: 111px;
+    height: 37px;
+    border-radius: 50%;
+    top: 57px;
+    right: 53px;
+    transform: rotate(-0.565turn);
+  }
+}
