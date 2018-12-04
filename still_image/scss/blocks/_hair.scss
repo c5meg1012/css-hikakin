@@ -2,41 +2,145 @@
   &__tip {
     background-color: $hair;
     position: absolute;
+    border-radius: 50%;
   }
 
   &__tip--01 {
-    // width: 100px;
-    // height: 5px;
-    // border-radius: 50%;
-    // top: 0;
-    // right: 30px;  
+    width: 80px;
+    height: 30px;
+    top: 0;
+    right: 40px;
+    transform: rotate(-0.45turn);
   }
 
   &__tip--02 {
-    
+    width: 30px;
+    height: 5px;
+    top: -4px;
+    right: 97px;
+    transform: rotate(-0.5turn);
   }
 
   &__tip--03 {
-    
+    width: 80px;
+    height: 30px;
+    top: 3px;
+    right: 96px;
+    transform: rotate(-0.54turn);
   }
 
   &__tip--04 {
-    
+    width: 30px;
+    height: 5px;
+    top: 17px;
+    right: 154px;
+    transform: rotate(-0.6turn);
   }
 
   &__tip--05 {
-    
+    width: 80px;
+    height: 30px;
+    top: 27px;
+    right: 129px;
+    transform: rotate(-0.61turn);
   }
 
   &__tip--06 {
-    
+    width: 30px;
+    height: 5px;
+    top: 56px;
+    right: 185px;
+    transform: rotate(-0.66turn);
   }
 
   &__tip--07 {
-    
+    width: 80px;
+    height: 20px;
+    top: 86px;
+    right: 156px;
+    transform: rotate(-0.76turn);
   }
 
   &__tip--08 {
-    
+    width: 69px;
+    height: 11px;
+    top: 126px;
+    right: 160px;
+    transform: rotate(-0.79turn);
+  }
+
+  &__tip--09 {
+    width: 69px;
+    height: 11px;
+    top: 166px;
+    right: 134px;
+    transform: rotate(-0.85turn);
+  }
+
+  &__tip--10 {
+    width: 50px;
+    height: 11px;
+    top: 172px;
+    right: 143px;
+    transform: rotate(-0.89turn);
+  }
+
+  &__tip--11 {
+    width: 150px;
+    height: 150px;
+    top: 21px;
+    right: 49px;
+  }
+
+  &__tip--12 {
+    width: 150px;
+    height: 150px;
+    top: 43px;
+    right: 49px;
+  }
+
+  &__tip--13 {
+    width: 50px;
+    height: 50px;
+    top: 22px;
+    right: 19px;
+  }
+
+  &__tip--14 {
+    width: 69px;
+    height: 11px;
+    top: 51px;
+    right: -19px;
+    transform: rotate(-0.83turn);
+  }
+
+  &__tip--15 {
+    width: 69px;
+    height: 11px;
+    top: 111px;
+    right: -26px;
+    transform: rotate(-0.73turn);
+  }
+
+  &__tip--16 {
+    width: 69px;
+    height: 11px;
+    top: 162px;
+    right: -2px;
+    transform: rotate(-0.63turn);
+  }
+
+  &__tip--17 {
+    width: 150px;
+    height: 150px;
+    top: 19px;
+    right: 16px;
+  }
+
+  &__tip--18 {
+    width: 150px;
+    height: 150px;
+    top: 26px;
+    right: 2px;
   }
 }
