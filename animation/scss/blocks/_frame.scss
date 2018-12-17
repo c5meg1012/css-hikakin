@@ -1,0 +1,74 @@
+.frame {
+  top: 0px;
+  left: 0px;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  animation: dash 0.4s linear infinite 0s forwards;
+  animation-play-state: running;
+
+  img {
+    width: 100%;
+  }
+
+  &--001 {
+    z-index: 11;
+  }
+
+  &--002 {
+    animation-delay: 0.1s;
+    z-index: 10;
+  }
+
+  &--003 {
+    animation-delay: 0.125s;
+    z-index: 9;
+  }
+
+  &--004 {
+    animation-delay: 0.15s;
+    z-index: 8;
+  }
+
+  &--005 {
+    animation-delay: 0.175s;
+    z-index: 7;
+  }
+
+  &--006 {
+    animation-delay: 0.2s;
+    z-index: 6;
+  }
+
+  &--007 {
+    animation-delay: 0.3s;
+    z-index: 5;
+  }
+
+  &--008 {
+    animation-delay: 0.325s;
+    z-index: 4;
+  }
+
+  &--009 {
+    animation-delay: 0.35s;
+    z-index: 3;
+  }
+
+  &--010 {
+    animation-delay: 0.375s;
+    z-index: 2;
+  }
+
+  &--011 {
+    animation-delay: 0.4s;
+    z-index: 1;
+  }
+}
+
+@keyframes dash {
+  0% { visibility: visible; z-index: 100; }
+  12.5% { visibility: visible; z-index: 100; }
+  25% { visibility: hidden; z-index: 0; }
+  100% { visibility: hidden; z-index: 0; }
+}
