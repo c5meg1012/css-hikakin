@@ -1,0 +1,13 @@
+.hajime {
+  top: 0px;
+  left: -250px;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  animation: move 15s linear 0s infinite normal;
+}
+
+@keyframes move {
+  0% { left: -250px; }
+  100% { left: 100%; }
+}
